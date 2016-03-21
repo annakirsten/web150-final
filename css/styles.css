@@ -1,0 +1,428 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*   {
+	margin:0;
+	padding:0;
+}
+
+body   {
+	font-family:'PT Sans', sans-serif;
+	font-size:100%;
+	line-height:1.5;
+	color:#232123;
+	background:#F8F6F8;
+}
+
+#wrapper   {
+	width:940px;
+	margin:0 auto;
+	padding:2em 20px .5em 20px;
+	background:#EFEDEF;
+	overflow:hidden;
+}
+
+html   {
+	font-size:1em;
+}
+
+p   {
+	margin-bottom:1.5em;
+}
+
+.split   {
+    margin-bottom: .5em;
+}
+
+a   {
+	color:#232123;
+}
+
+h1, h2, h3, h4   {
+	font-family:'Arvo', serif;
+	font-weight:300;
+	line-height:1;
+}
+
+h1   {
+	font-size: 2.441em;
+    margin-bottom: .6em;
+}
+
+h2   {
+	font-size: 1.953em;
+    margin-bottom: .5em;
+}
+
+h3   {
+	font-size: 1.563em;
+    margin-bottom: .5em;
+}
+
+h4   {
+	font-size: 1.25em;
+    margin-bottom: .4em;
+}
+
+/*++++++++++++++++++++++Header++++++++++++++++++++++*/
+
+header   {
+	overflow:hidden;
+}
+
+header h1   {
+	font-family:'Arvo', serif;
+	font-weight:500;
+	font-style:italic;
+    padding-top:2.2em;
+    opacity: 1;
+    font-size: 3.3em;
+}
+
+h1.header-home {
+	font-size:.5em;
+    padding-top:2.2em;
+    position:relative;
+    left: -175px;
+    opacity: 0;
+}
+
+header a   {
+	text-decoration:none;
+	color:#232123;
+}
+
+#logo   {
+	float:left;
+}
+
+#logo img   {
+	width:180px;
+	padding:20px 30px 0 20px;
+	display:block;
+}
+
+#social   {
+	float:right;
+	padding:40px 40px 0 0;
+}
+
+#social li   {
+	float:left;
+	list-style-type:none;
+	padding-left:15px;
+}
+
+#social img   {
+	height:50px;
+}
+
+/*++++++++++++++++++++++Nav++++++++++++++++++++++*/
+
+nav   {
+	clear:both;
+	height:50px;
+	background:#D4353D;
+	font-size:1.6em;
+	border-top:2px #D4353D solid;
+	border-bottom:2px #D4353D solid;
+}
+
+nav ul   {
+    width: 980px;
+    margin: 0 auto;
+}
+
+nav li   {
+    width: 25%;
+	float:left;
+	text-align:center;
+	line-height:50px;
+	list-style-type:none;
+	font-variant:small-caps;
+}
+
+nav li a   {
+	font-family:'PT Sans Caption', sans-serif;
+	display:block;
+	text-decoration:none;
+	color:#232123;
+	font-weight:400;
+}
+
+/*++++++++++++++++++++++Main++++++++++++++++++++++*/
+
+main   {
+	width:59.702127%;
+	float:left;
+    margin-left:1%;
+}
+
+main img   {
+	max-width:100%;
+}
+
+/*++++++++++++++++++++++Home Tiles++++++++++++++++++++++*/
+
+#box   {
+	width:100%
+}
+
+#box h2   {
+    padding-top: .8em;
+	padding-left:1%;
+}
+
+#box img   {
+	max-width:90%;
+	border-left:2px #D4353D solid;
+    padding-left: .2em;
+    margin-bottom: 1.3em;
+}
+
+.three-tiles .inner   {
+	clear:both;
+	display:block;
+}
+
+.three-tiles .inner h4   {
+    font-size: 1.15em;
+    margin-right: .2em;
+    line-height:1.2em;
+    height:2.3em;
+}
+
+.three-tiles .inner a   {
+	color:#232123;
+	text-decoration:none;
+}
+
+.three-tiles .box-left   {
+	float:left;
+	width:32%;
+}
+
+.three-tiles .box-center   {
+	float:left;
+	width:32%;
+    padding-left: 2%;
+}
+
+.three-tiles .box-right   {
+	float:right;
+	width:32%;
+}
+
+/*++++++++++++++++++++++aside++++++++++++++++++++++*/
+
+aside   {
+	width:34.170212%;
+	float:right;
+    margin-right:1%;
+}
+
+aside h4   {
+	padding-top:.5em;
+	margin-bottom:.8em;
+}
+
+p.block   {
+	padding:0 15px;
+	margin:0 0 30px 10px;
+	border-left:2px #454145 solid;
+}
+
+aside img   {
+    max-width: 90%;
+    margin: 0 auto;
+    padding-left: 5%;
+}
+
+#datepicker {
+    margin-bottom: 15px;
+}
+
+#check_date {
+    font-family:'Arvo', serif;
+}
+
+/*++++++++++++++++++++++Services, About Page++++++++++++++++++++++*/
+
+.services img {
+    float:none;
+    display:block;
+	width:80%;
+	margin:0 auto;
+    padding:0;
+}
+
+.about img   {
+	float:right;
+	width:40%;
+	margin:.5em 0 .5em 4%;
+}
+
+.services img {
+    margin-bottom: 1.5em;
+}
+
+main.services ul {
+    list-style-position: inside;
+}
+
+main.services li {
+    list-style-type: square;
+    padding-left: 20px;
+    line-height: 1.4;
+    font-size: 115%;
+}
+
+/*++++++++++++++++++++++Footer++++++++++++++++++++++*/
+
+footer   {
+	float:left;
+	clear:both;
+	height:50px;
+}
+
+footer ul   {
+	padding-left:20px;
+}
+
+footer li   {
+	float:left;
+	list-style-type:none;
+	line-height:50px;
+	padding-right:20px;
+}
+
+footer a   {
+	text-decoration:none;
+	color:#232123;
+}
+
+#valid   {
+	float:right;
+	padding-bottom:10px
+}
+
+#valid img   {
+	width:30px;
+	padding-right:20px;
+}
+
+#valid-sm   {
+	float:right;
+	padding-bottom:10px
+}
+
+#valid-sm img   {
+	width:20px;
+	padding-right:15px;
+}
+
+/*++++++++++++++++++++++Form++++++++++++++++++++++*/
+
+form   {
+    margin: 0 auto;
+	padding:0 1em 1em 1em;
+	font-size:100%;
+}
+
+form h1   {
+	padding-bottom:0;
+	line-height:1;
+}
+
+form legend   {
+	font-size:1.953em;
+	color:#D4353D;
+}
+
+fieldset   {
+	padding-left:1em;
+}
+
+form label   {
+	padding-top:.4em;
+	padding-bottom:.4em;
+	font-size:1;
+	line-height:1;
+}
+
+form p   {
+	margin:0 0 .2em 0;
+	padding:0;
+}
+
+form input[type=text], form input[type=email], 
+form input[type=tel], form input[type=url], form textarea   {
+	border:1px solid #232123;
+	font-size:1em;
+	font-family:'PT Sans', sans-serif;
+}
+
+form input[type=text], form input[type=email], 
+form input[type=tel], form input[type=url]   {
+	height:1.4em;
+    margin-bottom: 1em;
+}
+
+form #first_name, form #last_name, form #email {
+    width:50%
+}
+
+form input[type=checkbox], form input[type=radio]   {
+	display:inline;
+	margin-right:5px;
+}
+
+form #no {
+    margin-bottom: .8em;
+}
+
+form textarea   {
+    width: 96%;
+}
+
+form span {
+	color: #D4353D;
+	font-size: 115%;
+	margin-left: .5em;
+}
+
+form input[type=submit], form input[type=reset]   {
+	background:#EFEDEF;
+	font-weight:bold;
+	font-size:150%;
+	font-variant:small-caps;
+	border-radius:5px;
+	width:30%;
+	border:1px #232123 solid;
+	height:1.5em;
+	font-family:'Arvo', serif;
+	color:#D4353D;
+	margin: .8em 0;
+}
+
+form input[type=reset]   {
+    float: right;
+    margin-right: .7em;
+}
+
+/*++++++++++++++++++++++Thx++++++++++++++++++++++*/
+
+#thx   {
+	padding:1em;
+    margin: 0 auto;
+}
+
+#thx p   {
+	font-size:1.3em;
+	line-height:1.3;
+}
+
+#thx img   {
+	max-width:400px;
+	width:95%;
+}
