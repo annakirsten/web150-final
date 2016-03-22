@@ -48,8 +48,8 @@
 
 <?php include("includes/footer.php"); ?>
 
+<script src="js/jquery.min.js"></script> <!--lightbox-->
 <script src="js/imagelightbox.min.js"></script> <!--lightbox-->
-
 <script>
 
 	$( function()
